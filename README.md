@@ -1,6 +1,8 @@
 # scifi-trivia
-Alexa Skill
+An Alexa Skill
+
 Based on Amazon's Alexa Skill Template: Reindeer Games
+
 Written in Node.js
 
 Currently the game contains questions on SciFi novels.  
