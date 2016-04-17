@@ -141,7 +141,44 @@ var questions = [
             "Vogons",
             "Klingons"
         ]
-    }
+    },
+    {
+        "In Ray Bradbury's novel Fahrenheit <say-as interpret-as='address'>451</say-as>, what function does a fireman serve?": [
+            "Burn books",
+            "Put out fires",
+            "Ask for donations",
+            "Save cats from trees",
+            "Protect the innocent"
+        ]
+    },
+    {
+        "Who wrote the dystopian novel, Fahrenheit <say-as interpret-as='address'>451</say-as> in 1953?": [
+            "Ray Bradbury",
+            "Douglas Adams",
+            "Frank Herbert",
+            "C.S. Lewis",
+            "Orson Scott Card",
+            "George Orwell"
+        ]
+    },
+    {
+        "The title of the novel, Fahrenheit <say-as interpret-as='address'>451</say-as> refers to what?": [
+            "The autoignition temperature of paper",
+            "The temperature outside",
+            "The temperature to bake cookies",
+            "The highest temperature in which a human can survive unaided",
+            "A room number in the Fahrenheit hotel"
+        ]
+    },
+    {
+        "The main character's name in Fahrenheit <say-as interpret-as='address'>451</say-as> is what?": [
+            "Guy Montag",
+            "Clarisse McClellan",
+            "Millie Montag",
+            "Captain Beatty",
+            "Faber"
+        ]
+    }    
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
