@@ -8,7 +8,7 @@
  * Test
  */
 
-'use strict';
+"use strict";
 
 /**
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
@@ -155,7 +155,7 @@ exports.handler = function (event, context) {
          */
         if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.52e3fc58-4ebc-4419-b284-1f7f51f83bdc") {
             context.fail("Invalid Application ID");
-         }
+        }
 
         if (event.session.new) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
@@ -282,7 +282,7 @@ function getWelcomeResponse(callback) {
         i, j;
 
     for (i = 0; i < ANSWER_COUNT; i++) {
-        repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". "
+        repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". ";
     }
     speechOutput += repromptText;
     sessionAttributes = {
@@ -395,7 +395,7 @@ function handleAnswerRequest(intent, session, callback) {
             speechOutputAnalysis = "correct. ";
         } else {
             if (!userGaveUp) {
-                speechOutputAnalysis = "wrong. "
+                speechOutputAnalysis = "wrong. ";
             }
             speechOutputAnalysis += "The correct answer is " + correctAnswerIndex + ": " + correctAnswerText + ". ";
         }
@@ -416,7 +416,7 @@ function handleAnswerRequest(intent, session, callback) {
                 questionIndexForSpeech = currentQuestionIndex + 1,
                 repromptText = "Question " + questionIndexForSpeech.toString() + ". " + spokenQuestion + " ";
             for (var i = 0; i < ANSWER_COUNT; i++) {
-                repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". "
+                repromptText += (i+1).toString() + ". " + roundAnswers[i] + ". ";
             }
             speechOutput += userGaveUp ? "" : "That answer is ";
             speechOutput += speechOutputAnalysis + "Your score is " + currentScore.toString() + ". " + repromptText;

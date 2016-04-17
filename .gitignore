@@ -1,3 +1,4 @@
 # VS Code ignores
 typings/
 jsconfig.json
+.eslintrc.json
