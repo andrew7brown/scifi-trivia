@@ -143,7 +143,7 @@ var questions = [
         ]
     },
     {
-        "In Ray Bradbury's novel Fahrenheit <say-as interpret-as='address'>451</say-as>, what function does a fireman serve?": [
+        "In Ray Bradbury's novel Fahrenheit 451, what function does a fireman serve?": [
             "Burn books",
             "Put out fires",
             "Ask for donations",
@@ -152,7 +152,7 @@ var questions = [
         ]
     },
     {
-        "Who wrote the dystopian novel, Fahrenheit <say-as interpret-as='address'>451</say-as> in 1953?": [
+        "Who wrote the dystopian novel, Fahrenheit 451 in 1953?": [
             "Ray Bradbury",
             "Douglas Adams",
             "Frank Herbert",
@@ -162,7 +162,7 @@ var questions = [
         ]
     },
     {
-        "The title of the novel, Fahrenheit <say-as interpret-as='address'>451</say-as> refers to what?": [
+        "The title of the novel, Fahrenheit 451 refers to what?": [
             "The autoignition temperature of paper",
             "The temperature outside",
             "The temperature to bake cookies",
@@ -171,7 +171,7 @@ var questions = [
         ]
     },
     {
-        "The main character's name in Fahrenheit <say-as interpret-as='address'>451</say-as> is what?": [
+        "The main character's name in Fahrenheit 451 is what?": [
             "Guy Montag",
             "Clarisse McClellan",
             "Millie Montag",
